@@ -47,3 +47,13 @@ rest.Dispatcher.add_models({
 rest.Dispatcher.authenticator = MyAuthenticator()
 rest.Dispatcher.authorizer = MyAuthorizer()
 
+Online demo
+--------------
+
+The Boomi Demo App Engine application is a fully working example application (based on the Google App Engine Greeting demo application).
+
+Available types: http://boomi-demo.appspot.com/rest/metadata
+Greeting schema: http://boomi-demo.appspot.com/rest/metadata/Greeting
+Greeting instances: http://boomi-demo.appspot.com/rest/Greeting
+Greeting instances with filter: http://boomi-demo.appspot.com/rest/Greeting?feq_author=bob@example.com&feq_date=2008-11-03T00:21:19.080553
+Data accessible in both XML and JSON format (input can be specified using the HTTP "Content-Type" header, output can be specified using the HTTP "Accept" request header, e.g. "application/xml" or "application/json")
