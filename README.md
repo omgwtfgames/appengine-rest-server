@@ -1,3 +1,6 @@
+Exported from Google Code: https://code.google.com/p/appengine-rest-server/
+
+----
 Copyright 2008 Boomi, Inc.
 All rights reserved.
 
