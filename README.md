@@ -6,7 +6,7 @@ All rights reserved.
 
 Basic REST server for Google App Engine Applications using the builtin Datastore API.
 
-For extended feature list, see http://code.google.com/p/appengine-rest-server/
+For extended feature list, see https://github.com/omgwtfgames/appengine-rest-server/blob/wiki/Features.md
 
 ========
 
